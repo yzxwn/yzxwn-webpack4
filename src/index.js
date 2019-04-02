@@ -3,6 +3,7 @@ import "./style/index.less";
 const component = () => {
     const element = document.createElement('div');
 
+    console.log([...new Set([1,2,3])]);
     const text = document.createElement('span');
     text.innerHTML = `3435${111}`;
     element.appendChild(text);
